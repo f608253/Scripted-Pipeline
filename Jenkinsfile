@@ -1,5 +1,5 @@
 node { 
-      checkout scm
+      checkout scm   // to enable scm checkout which is not be default in scripted pipeline//
       stage ('Build') {
            echo 'Building....'
       }
